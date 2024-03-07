@@ -59,27 +59,31 @@ Before you begin, ensure you have met the following requirements:
 4. Configuration
    Configure the virtual environment:
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate # On Linux/Mac
-.\venv\Scripts\activate # On Windows
-Apply initial migrations:
+   ```bash
+    python -m venv venv
+   source venv/bin/activate # On Linux/Mac
+   .\venv\Scripts\activate # On Windows
+   ```
 
-bash
-Copy code
-python manage.py migrate
-Create a superuser for admin access:
+5. Apply initial migrations:
 
-bash
-Copy code
-python manage.py createsuperuser
-Usage
-Run the development server:
+   ```bash
+   python manage.py migrate
+   ```
 
-bash
-Copy code
-python manage.py runserver
+6. Create a superuser for admin access:
+
+   ```bash
+   python manage.py createsuperuser
+   ```
+
+7. Usage
+   Run the development server:
+
+```bash
+    python manage.py runserver
+```
+
 Access the Django admin interface at http://127.0.0.1:8000/admin/ and log in with the superuser credentials created earlier.
 
 Explore and test the API endpoints (see API Endpoints).
@@ -110,4 +114,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Acknowledgments
 Django
 Django Rest Framework
-Your acknowledgments and credits here.
+GRIT
