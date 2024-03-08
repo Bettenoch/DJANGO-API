@@ -1,7 +1,4 @@
 from rest_framework import serializers
-from rest_framework.permissions import AllowAny
-from rest_framework import status
-from rest_framework_simplejwt.tokens import RefreshToken
 
 from core.user.serializers import UserSerializer
 from core.user.models import User
